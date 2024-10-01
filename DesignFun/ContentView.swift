@@ -13,9 +13,25 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, world!!!")
+            HStack {
+                Circle()
+                Circle()
+                VStack{
+                    Rectangle()
+                    Rectangle()
+                    Rectangle()
+                    Circle()
+                }
+            }
         }
         .padding()
+        
+        HStack {
+            Circle()
+            Circle()
+            Rectangle()
+        }
     }
 }
 
