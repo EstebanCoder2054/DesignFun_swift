@@ -32,6 +32,12 @@ struct ContentView: View {
             Circle()
             Rectangle()
         }
+        
+        HStack {
+            Circle()
+            Circle()
+            Rectangle()
+        }
     }
 }
 
